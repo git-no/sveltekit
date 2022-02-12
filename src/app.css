@@ -1,0 +1,26 @@
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/700.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply font-bold border border-transparent hover:text-white hover:bg-amber-400 hover:border hover:border-amber-400 hover:shadow-lg hover:shadow-amber-400/50 active:bg-amber-500 active:shadow-amber-500/30 active:border-transparent mx-3 py-3 px-12 md:px-8 mb-6 md:mb-0 transition duration-300;
+    }
+    .link {
+        @apply inline-block font-semibold underline decoration-amber-400 decoration-3 shadow-lg shadow-amber-400/0 hover:bg-amber-400 hover:shadow-amber-400/50 transition-all duration-500;
+    }
+}
+
+.decoration-3 {
+    text-decoration-thickness: 3px;
+}
+
+.bg-footer {
+    background-color: rgb(220, 224, 227);
+}
+
+::selection {
+    background-color: rgb(251 191 36); /* amber-400 */
+}
