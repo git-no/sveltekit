@@ -1,0 +1,4 @@
+{
+    "html.format.wrapAttributes": "force-aligned",
+    "svelte.plugin.svelte.format.config.svelteBracketNewLine": false
+}

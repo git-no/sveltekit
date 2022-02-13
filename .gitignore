@@ -9,3 +9,5 @@ node_modules
 .vercel
 .output
 package-lock.json
+!.vscode/settings.json
+!.vscode
