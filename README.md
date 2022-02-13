@@ -1,6 +1,6 @@
 # SvelteKit Tailwind Template
 
-A tempalte a s starter kit of SvelteKit with tailwind installation
+A tempalte a s starter kit of SvelteKit with tailwind installation. Example at [sveltekit-tailwind-template-start](https://sveltekit-tailwind-template-start.vercel.app).
 
 ## Integrated
 
@@ -11,7 +11,7 @@ A tempalte a s starter kit of SvelteKit with tailwind installation
 
 ## Installation 
 
-Clone from github or install SvelteKit and Tailwind maually:
+Clone[sveltekit-tailwind-template](https://github.com/git-no/sveltekit-tailwind-template) from github or install SvelteKit and Tailwind maually:
 
 ```
 npm init svelte@next sveltekit  
