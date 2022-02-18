@@ -35,6 +35,10 @@ We are working on:
 - Header with navigation
 - Contact page
 - Markdown support
+- Night/Day (Darkmode)
+- Cookies
+- Cookies Banner
+- Typescript Support
 ... 
 
 ## References
