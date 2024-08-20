@@ -1,50 +1,38 @@
-# SvelteKit Tailwind Template
+# create-svelte
 
-A tempalte a s starter kit of SvelteKit with tailwind installation. Example at [sveltekit-tailwind-template-start](https://sveltekit-tailwind-template-start.vercel.app).
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Integrated
+## Creating a project
 
-- SvelteKit
-- Tailwind (incl. CSS auto format)
-- Prettier 
-- Components (home page, error page, footer)
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Installation 
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-Clone[sveltekit-tailwind-template](https://github.com/git-no/sveltekit-tailwind-template) from github or install SvelteKit and Tailwind maually:
-
+# create a new project in my-app
+npm create svelte@latest my-app
 ```
-npm init svelte@next sveltekit  
-cd sveltekit   
-npm install   
-git init && git add -A && git commit -m "Initial commit"
 
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init tailwind.config.cjs -p
-mv postcss.config.js postcss.config.cjs
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
-Make sure to configure `app.css`and `tailwind-config.json`. The tailwind installation is described [here](https://tailwindcss.com/docs/guides/sveltekit).
 
-The github repository includes some additional styles.
+## Building
 
+To create a production version of your app:
 
-## Next 
+```bash
+npm run build
+```
 
-We are working on:
+You can preview the production build with `npm run preview`.
 
-- Header with navigation
-- Contact page
-- Markdown support
-- Night/Day (Darkmode)
-- Cookies
-- Cookies Banner
-- Typescript Support
-... 
-
-## References
-
-Some helpful resources
-
-- [UI component library](https://sveltesociety.dev/components/)
-- [Darkmode](https://flowbite.com/docs/customize/dark-mode/)
-- [Buttons](https://flowbite.com/docs/components/buttons/)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
